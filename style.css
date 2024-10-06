@@ -50,7 +50,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/bg.png);
+    background: url(images/me-1.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -240,7 +240,9 @@ section{
     margin-bottom: 30px;
 }
 
-.contact-card h4{
+.contact-card a{
+    text-decoration: none;
+    color: black;
     margin-top: 10px;
     font-size: 1.1em;
     font-weight: 600;
@@ -297,7 +299,7 @@ section{
         height: 100vh;
         display: flex;
         align-items: center;
-        background: url(images/t1.png);
+        background: url(images/me-2.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
