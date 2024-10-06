@@ -8,6 +8,8 @@
     scroll-behavior: smooth;
 }
 
+/* #Maiiiiiiiiiiiiiiin */
+
 header{
     background-color: #f0f0f0;
     display: flex;
@@ -109,17 +111,19 @@ section{
     margin-bottom: 39px;
 } */
 
+
+
+/* #serviiiiiiiiiiiiiiiiiices */
 .services{
     width: 100%;
     min-height: 100vh;
 }
 .title{
     display: flex;
+    text-align: center;
     justify-content: center;
-    /* text-align: center; */
     /* color: rgb(7, 14, 159); */
     color: rgb(5, 60, 211) ;
-
     font-size: 1.8em;
     font-weight: 800;
 }
@@ -136,6 +140,7 @@ section{
 .service-card{
     background-color: #f0f0f0;
     width: 20.2em;
+    min-width: 15em;
     padding: 25px;
     box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
     border-radius: 10px;
@@ -160,6 +165,9 @@ section{
 
 }
 
+
+
+/* #projecccccccccccccts */
 .projects{
     background-color: black;
 }
@@ -167,15 +175,15 @@ section{
 .project-card{
     background-color: #f0f0f0;
     width: 22.5em;
-    /* min-width: 10em; */
+    min-width: 15em;
     min-height: 14em;        
     border: 1px solid white;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.7s ease;
+    margin: 5px ;
     /* margin-right: px; */
-    margin: 5px 0 ;
-    margin-right: auto;
+    /* margin-right: auto; */
     /* margin: auto; */
 }
 
@@ -214,9 +222,15 @@ section{
 
 }
 
+
+
+/* #contacccccccccccccct */
+
 .contact-card{
     background-color: white;
+    word-wrap: break-word; /* This ensures that long text breaks into new lines */
 }
+
 
 .contact-icon i{
     /* color: rgb(54, 4, 169); */
@@ -231,6 +245,9 @@ section{
     font-size: 1.1em;
     font-weight: 600;
 }
+
+
+
 
 .footer{
     background-color: black;
@@ -254,3 +271,171 @@ section{
     margin-right: 10px;
     font-size: 1.4em;
 }
+
+
+@media (max-width:1380px) {
+    body{
+        font-size: 14px;
+    }
+    header{
+        padding: 10px 100px;
+    }
+    .Me{
+        font-size: 1.4em;
+    }
+    section{
+        padding: 20px 40px;
+        padding: 100px 200px;  
+        padding: 50px 100px;
+    }
+    .social-icon a{
+        font-size: 1.6em;
+    }
+    .main{
+        color: #f0f0f0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(images/t1.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+@media (max-width:740px) {
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding: 10px 50px;
+    }
+    .Me{
+        font-size: 1.3em;
+    }
+     .social-icon a{
+        font-size: 1.6em;
+        margin-right: 22px;
+    }
+    section{
+        padding: 40px 80px;
+    }
+    header nav a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1em;
+        padding-left: 10px;
+        color: rgb(17, 75, 235);
+    }
+    .footer{
+        padding: 20px 20px;
+    }
+    
+    .footer p{
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .footer span{
+        /* color: rgb(17, 75, 235); */
+        color: #3a6cf4;
+        font-weight: 700;
+    }
+    .footer .social-icon a{
+        margin-right: 10px;
+        font-size: 1.4em;
+    }
+
+}
+
+
+@media (max-width:500px) {
+    body{
+        font-size: 11px;
+    }
+    header{
+        padding: 10px 20px;
+    }
+    .Me{
+        font-size: 1.2em;
+    }
+     .social-icon a{
+        font-size: 1.6em;
+        margin-right: 20px;
+    }
+    section{
+        padding: 20px 40px;
+    }
+    header nav a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1em;
+        padding-left: 7px;
+        color: rgb(17, 75, 235);
+    }
+    .footer{
+        padding: 16px 16px;
+    }
+    
+    .footer p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .footer span{
+        /* color: rgb(17, 75, 235); */
+        color: #3a6cf4;
+        font-weight: 600;
+    }
+    .footer .social-icon a{
+        margin-right: 8px;
+        font-size: 1.4em;
+    }
+
+}
+
+
+
+@media (max-width:250px) {
+    body{
+        font-size: 10px;
+    }
+    header{
+        padding: 5px 5px;
+    }
+    .Me{
+        font-size: 0.9em;
+    }
+     .social-icon a{
+        font-size: 1.6em;
+        margin-right: 18px;
+    }
+    section{
+        padding: 10px 20px;
+    }
+    header nav a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.8em;
+        padding-left: 2px;
+        color: rgb(17, 75, 235);
+    }
+    .footer{
+        padding: 5px 5px;
+    }
+    
+    .footer p{
+        font-size: 0.6em;
+        font-weight: 300;
+    }
+    .footer span{
+        /* color: rgb(17, 75, 235); */
+        color: #3a6cf4;
+        font-weight: 700;
+    }
+    .footer .social-icon a{
+        margin-right: 4px;
+        font-size: 0.8em;
+    }
+
+}
+
+
