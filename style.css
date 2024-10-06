@@ -201,7 +201,7 @@ section{
 }
 
 .project-info{
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .project-category{
@@ -280,18 +280,24 @@ section{
         font-size: 14px;
     }
     header{
-        padding: 10px 100px;
+        padding: 10px 60px;
+    }
+    header nav a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1em;
+        padding-left: 15px;
+        color: rgb(17, 75, 235);
     }
     .Me{
         font-size: 1.4em;
     }
-    section{
-        padding: 20px 40px;
-        padding: 100px 200px;  
-        padding: 50px 100px;
+    section{  
+        padding: 50px 90px;
     }
     .social-icon a{
-        font-size: 1.6em;
+        font-size: 1.7em;
+        margin-right: 23px;
     }
     .main{
         color: #f0f0f0;
@@ -312,6 +318,7 @@ section{
     header{
         padding: 10px 50px;
     }
+    
     .Me{
         font-size: 1.3em;
     }
