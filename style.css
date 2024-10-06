@@ -246,6 +246,11 @@ section{
     font-weight: 500;
 }
 .footer span{
-    color: rgb(17, 75, 235);
+    /* color: rgb(17, 75, 235); */
+    color: #3a6cf4;
     font-weight: 700;
+}
+.footer .social-icon a{
+    margin-right: 10px;
+    font-size: 1.4em;
 }
