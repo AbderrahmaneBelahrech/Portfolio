@@ -32,6 +32,10 @@ header nav a{
     font-weight: 600;
     font-size: 1.2em;
     padding-left: 20px;
+    color: rgb(17, 75, 235);
+}
+header nav a:hover{
+    color: rgb(7, 16, 187);
 }
 
 section{
@@ -83,6 +87,7 @@ section{
     font-size: 1.1 em;
     font-weight: 600;
     letter-spacing: 1px;
+    margin-bottom: 20px;
     transition: 0.7s ease;
 }
 
@@ -91,12 +96,8 @@ section{
     transform: scale(1.1);
 }
 
-.social-icon{
-    margin-top: 20px;
-}
-
 .social-icon a{
-    margin-right: 20px;
+    margin-right: 25px;
     color: white;
     font-size: 1.7em;
 }
@@ -116,15 +117,17 @@ section{
     display: flex;
     justify-content: center;
     /* text-align: center; */
-    color: rgb(5, 14, 190);
+    /* color: rgb(7, 14, 159); */
+    color: rgb(5, 60, 211) ;
+
     font-size: 1.8em;
     font-weight: 800;
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
-    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -163,19 +166,21 @@ section{
 
 .project-card{
     background-color: #f0f0f0;
-    width: 23em;
-    min-height: 14em;
+    width: 22.5em;
+    /* min-width: 10em; */
+    min-height: 14em;        
     border: 1px solid white;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.7s ease;
     /* margin-right: px; */
-    margin: 5px 0;
-    
+    margin: 5px 0 ;
+    margin-right: auto;
+    /* margin: auto; */
 }
 
 .project-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .project-card:hover .project-image{
     opacity: 0.9;
@@ -200,21 +205,47 @@ section{
     display: flex;
     justify-content: space-between;
 }
+.more-details{
+    text-decoration: none;
+    transition: 0.4s ease;
+}
 .more-details:hover{
     color: blueviolet;
 
 }
 
-
 .contact-card{
-    background-color: #f0f0f0;
-    width: 20.2em;
-    padding: 25px;
-    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.7s ease;
-    margin: 0 118px; 
-    /* margin-right: 45  px; */
+    background-color: white;
+}
+
+.contact-icon i{
+    /* color: rgb(54, 4, 169); */
+    color: rgb(5, 60, 211) ;    
+    font-size: 4em;
+    margin-top: 10px;
     margin-bottom: 30px;
+}
+
+.contact-card h4{
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.footer span{
+    color: rgb(17, 75, 235);
+    font-weight: 700;
 }
