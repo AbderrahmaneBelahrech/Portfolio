@@ -50,7 +50,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/me-1.png);
+    background: url(./images/me-1.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -226,6 +226,10 @@ section{
 
 /* #contacccccccccccccct */
 
+.Card-co{
+    text-decoration: none;
+}
+
 .contact-card{
     background-color: white;
     word-wrap: break-word; /* This ensures that long text breaks into new lines */
@@ -240,7 +244,7 @@ section{
     margin-bottom: 30px;
 }
 
-.contact-card a{
+.contact-card h4{
     text-decoration: none;
     color: black;
     margin-top: 10px;
@@ -263,6 +267,9 @@ section{
 .footer p{
     font-size: 1.2em;
     font-weight: 500;
+}
+.footer a{
+    text-decoration: none;
 }
 .footer span{
     /* color: rgb(17, 75, 235); */
@@ -305,7 +312,7 @@ section{
         height: 100vh;
         display: flex;
         align-items: center;
-        background: url(images/me-2.png);
+        background: url(./images/me-2.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
