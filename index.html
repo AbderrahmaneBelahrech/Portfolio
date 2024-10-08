@@ -14,8 +14,13 @@
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
             <a href="#contacts">Contact</a>
+            <!-- <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button> -->
         </nav>
+        <!-- Dark Mode Toggle Button -->
     </header>
+    
     <section class="main" id="main">
         <div>
             <h2>Hello, I'm Abderrahmane <br> <span>Full-Stack Dev</span></h2>
@@ -191,6 +196,29 @@
             <a href="https://www.facebook.com/profile.php?id=100009320569584" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
     </footer>
+
+    <!-- <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+    
+        // Check if dark mode is already applied
+        if (localStorage.getItem('dark-mode') === 'enabled') {
+            body.classList.add('dark-mode');
+        }
+    
+        // Toggle dark mode on button click
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+    
+            // Store dark mode preference in localStorage
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('dark-mode', 'enabled');
+            } else {
+                localStorage.setItem('dark-mode', 'disabled');
+            }
+        });
+    </script> -->
+    
 
 </body>
 </html>
